@@ -10,4 +10,4 @@ var AnimalSchema = Schema({
         state: String
     }
 });
-module.export = mongoose.model('Animal', AnimalSchema);
+module.exports = mongoose.model('Animal', AnimalSchema);
